@@ -15,9 +15,6 @@ $( function() {
 				
 				//Grabbing the parent of the input field gives us the fieldset responsible, and allows us to insert our error message.
 				$( this ).parent().append( "<div class='errormessage'>Oops! You missed something.</div>" );
-				Cufon.replace('.errormessage', {
-					hover: true
-				});
 			}
 		} );
 		
@@ -39,9 +36,6 @@ $( function() {
 				error.fadeIn( 500 );
 			} else {
 				$( this ).parent().append( "<div class='errormessage'>Oops! You missed something.</div>" );
-				Cufon.replace('.errormessage', {
-					hover: true
-				});
 			}
 		}
 	} );
@@ -51,8 +45,12 @@ function validate( field ) {
 	var valid = true;
 	if ( $( field ).hasClass( 'email' ) ) {
 		valid = $( field ).val().match(/^[A-Za-z0-9]+[\w.-]*?[A-Za-z0-9]+@[A-Za-z0-9]+[\w.-]*?\.[A-Za-z0-9]{2,5}$/);
+	} else if ( $( field ).hasClass( 'personname' ) ) {
+			valid = ( $( field ).val() === 'Your Name' ? false : true);
+	} else if ( $( field ).hasClass( 'message' ) ) {
+			valid = ( $( field ).val() === 'Your Message' ? false : true);
 	} else {
-		valid = ( $( field ).val() === '' ) ? false : true;
+		valid = ( $( field ).val() === '' ? false : true);
 	}
 	return valid;
 }

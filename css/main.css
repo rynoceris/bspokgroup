@@ -100,7 +100,7 @@ p.callout{float:left;width:960px;clear:both;display:block;}
 
 #contact-form {height: 306px;padding: 40px;width: 545px;background:url('../img/contact-bg.png') no-repeat 0 0;float:left;}
 #contact-form form {width:100%;float:left;}
-#contact-form form fieldset{float:left;display:block;}
+#contact-form form fieldset{float:left;display:block;position:relative;}
 #contact-form form fieldset input{border: 1px solid #AAAAAA;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;color: #71777D;display: block;float: left;font-size: 20px;height: 35px;margin-bottom: 20px;padding: 5px 10px;width: 348px;}
 #contact-form form fieldset textarea{border: 1px solid #AAAAAA;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;color: #71777D;display: block;float: left;font-size: 20px;width: 348px;height:160px;padding:5px 10px;font-family:'Lucida Grande';}
 #contact-form form fieldset label{float:left;display:block; width:370px;}
@@ -182,6 +182,8 @@ h5 img.bspok-sub, img.bspok-copy{vertical-align:middle;}
 p.gallery a.photo img{width:212px;}
 img.icon{padding:0 10px 5px 0;}
 p.service-description{line-height:1.4em;}
+div.error{position:absolute;top:0;color:red;}
+div.errormessage {background: none repeat scroll 0 0 #fff;color:red;font-family: "Century Gothic",Helvetica,arial,sans-serif;font-size: 12px;height: 33px;left: 178px;line-height: 32px;padding: 0 8px;position: absolute;top: 7px;width: 170px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border:1px solid;}
 
 /*******************************************************************************************************************
 *  TWITTER BAR STYLES                                                                                                    

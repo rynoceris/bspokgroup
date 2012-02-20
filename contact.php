@@ -1,62 +1,3 @@
-<?php 
-$send = true;
-$messageValid = true;
-$fromNameValid = true;
-$fromEmailValid = true;
-
-function check_email_address($email) {
-// First, we check that there's one @ symbol, and that the lengths are right
-if (!ereg("^[^@]{1,64}@[^@]{1,255}$", $email)) {
-// Email invalid because wrong number of characters in one section, or wrong number of @ symbols.
-return false;
-}
-// Split it into sections to make life easier
-$email_array = explode("@", $email);
-$local_array = explode(".", $email_array[0]);
-for ($i = 0; $i < sizeof($local_array); $i++) {
-if (!ereg("^(([A-Za-z0-9!#$%&'*+/=?^_`{|}~-][A-Za-z0-9!#$%&'*+/=?^_`{|}~\.-]{0,63})|(\"[^(\\|\")]{0,62}\"))$", $local_array[$i])) {
-return false;
-}
-}  
-if (!ereg("^\[?[0-9\.]+\]?$", $email_array[1])) { // Check if domain is IP. If not, it should be valid domain name
-$domain_array = explode(".", $email_array[1]);
-if (sizeof($domain_array) < 2) {
-return false; // Not enough parts to domain
-}
-for ($i = 0; $i < sizeof($domain_array); $i++) {
-if (!ereg("^(([A-Za-z0-9][A-Za-z0-9-]{0,61}[A-Za-z0-9])|([A-Za-z0-9]+))$", $domain_array[$i])) {
-return false;
-}
-}
-}
-return true;
-}
-
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-$to = "ryan@bspokgroup.com";
-$fromName = $_POST['yourname'];
-$subject = "Inquiry from bspokgroup.com contact form from $fromName";
-
-$message = $_POST['yourmessage'];
-if (ereg("/\w+/", $message)) {
-$send = false;
-$messageValid = false;
-}
-
-$fromEmail = $_POST['youremail'];
-if (check_email_address($fromEmail)) { 
-$headers = "From: $fromEmail";
-}
-else {
-$send = false;
-$fromEmailValid = false;
-}
-
-if ($send) {
-//All checked valid
-$sent = mail($to,$subject,$message,$headers);
-?>
-
 <!DOCTYPE html>
 <html lang="cs">
 	<head>
@@ -138,19 +79,84 @@ $sent = mail($to,$subject,$message,$headers);
 					<div id="contact-form">
 						<form action="#" method="post" accept-charset="utf-8" class="validate">
 							<fieldset>
-								<input name="yourname" type="text" class="text validate" onclick="this.value = ''" onblur="if (!this.value) this.value = 'Your Name'" value="Your Name"/>
+								<input name="yourname" id="yourname" type="text" class="textbox personname validate" onclick="this.value = ''" onblur="if (!this.value) this.value = 'Your Name'" value="Your Name"/>
 							</fieldset>
 							<fieldset>
-								<input name="youremail" type="text" class="text validate" onclick="this.value = ''" onblur="if (!this.value) this.value = 'Your E-mail'" value="Your E-mail"/>
+								<input name="youremail" id="youremail" type="text" class="textbox email validate" onclick="this.value = ''" onblur="if (!this.value) this.value = 'Your E-mail'" value="Your E-mail"/>
 							</fieldset>
 							<fieldset>
-								<textarea name="yourmessage" class="text validate" onclick="this.value = ''" onblur="if (!this.value) this.value = 'Your Message'" value="Your Message">Your Message</textarea>
+								<textarea name="yourmessage" id="yourmessage" class="message validate" onclick="this.value = ''" onblur="if (!this.value) this.value = 'Your Message'" value="Your Message">Your Message</textarea>
 							</fieldset>
 							<div class="send-to">
 								<p class="to"><span class="bold">To:</span><br />bspōk group<br />2240 Distributors Drive<br />Indianapolis, IN 46241<br /><a href="mailto:info@bspokgroup.com">info@bspokgroup.com</a><br />1-800-433-7289</p>
 								<input id="contact-submit" type="submit" class="submit" value="Say Hello!"/>
 							</div>
 						</form>
+						<?php 
+						$send = true;
+						$messageValid = true;
+						$fromNameValid = true;
+						$fromEmailValid = true;
+
+						function check_email_address($email) {
+						// First, we check that there's one @ symbol, and that the lengths are right
+						if (!ereg("^[^@]{1,64}@[^@]{1,255}$", $email)) {
+						// Email invalid because wrong number of characters in one section, or wrong number of @ symbols.
+						return false;
+						}
+						// Split it into sections to make life easier
+						$email_array = explode("@", $email);
+						$local_array = explode(".", $email_array[0]);
+						for ($i = 0; $i < sizeof($local_array); $i++) {
+						if (!ereg("^(([A-Za-z0-9!#$%&'*+/=?^_`{|}~-][A-Za-z0-9!#$%&'*+/=?^_`{|}~\.-]{0,63})|(\"[^(\\|\")]{0,62}\"))$", $local_array[$i])) {
+						return false;
+						}
+						}  
+						if (!ereg("^\[?[0-9\.]+\]?$", $email_array[1])) { // Check if domain is IP. If not, it should be valid domain name
+						$domain_array = explode(".", $email_array[1]);
+						if (sizeof($domain_array) < 2) {
+						return false; // Not enough parts to domain
+						}
+						for ($i = 0; $i < sizeof($domain_array); $i++) {
+						if (!ereg("^(([A-Za-z0-9][A-Za-z0-9-]{0,61}[A-Za-z0-9])|([A-Za-z0-9]+))$", $domain_array[$i])) {
+						return false;
+						}
+						}
+						}
+						return true;
+						}
+
+						if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+						$to = "ryan@bspokgroup.com";
+						$fromName = $_POST['yourname'];
+						$subject = "Inquiry from bspokgroup.com contact form from $fromName";
+
+						$message = $_POST['yourmessage'];
+						if (ereg("/\w+/", $message)) {
+						$send = false;
+						$messageValid = false;
+						}
+
+						$fromEmail = $_POST['youremail'];
+						if (check_email_address($fromEmail)) { 
+						$headers = "From: $fromEmail";
+						}
+						else {
+						$send = false;
+						$fromEmailValid = false;
+						}
+
+						if ($send) {
+						//All checked valid
+						$sent = mail($to,$subject,$message,$headers);
+						}
+						/*else { //For Debugging
+							if (!$messageValid) { echo '<div class="error">message invalid</div>'; }
+							if (!$fromNameValid) { echo '<div class="error">from name invalid</div>'; }
+							if (!$fromEmailValid) { echo '<div class="error">from email invalid</div>'; }
+						}*/
+						}
+						?>
 					</div>
 					<div id="map">
 						<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=2240+Distributors+Drive,+Indianapolis,+IN&amp;aq=0&amp;oq=2240+distributors+drive,+India&amp;sll=37.0625,-95.677068&amp;sspn=58.72842,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=2240+Distributors+Dr,+Indianapolis,+Marion,+Indiana+46241&amp;t=m&amp;ll=39.744748,-86.257181&amp;spn=0.019799,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=2240+Distributors+Drive,+Indianapolis,+IN&amp;aq=0&amp;oq=2240+distributors+drive,+India&amp;sll=37.0625,-95.677068&amp;sspn=58.72842,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=2240+Distributors+Dr,+Indianapolis,+Marion,+Indiana+46241&amp;t=m&amp;ll=39.744748,-86.257181&amp;spn=0.019799,0.025749&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
