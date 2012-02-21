@@ -23,7 +23,7 @@ a.more {padding-right: 15px;color: #000;background: url('../img/arrow.png') no-r
 /*******************************************************************************************************************
 *  H1 - H4                                                                                                         
 *******************************************************************************************************************/
-h1, h2, h3, h4 {font-family: "Lato", Arial;line-height: 1.5em;margin-bottom: 15px;font-weight: 700}
+h1, h2, h3, h4, #footer label {font-family: "Lato", Arial;line-height: 1.5em;margin-bottom: 15px;font-weight: 700}
 h1 {font-size: 2.8em;color: #fff;margin: 0;} 
 h1 span {color: #e1aa02}
 h2 {font-size: 1.75em;color: #5f5f61;text-shadow: 1px 1px 1px #fff;}
@@ -116,7 +116,7 @@ input#contact-submit.submit:hover {color: #000}
 #twitterBar .icon {position: absolute;top: -79px;left: -20px;display: block;width: 112px;height: 72px;background: url('../img/twitter.png') no-repeat}
 #twitterBar p {margin: 0}
 #footer {padding: 40px 0;color: #fff;font-size: 0.9em;}
-#footer h3 {color: #fff;text-shadow: 0 0 0;margin-bottom: 20px;font-size: 1.4em}
+#footer h3, #footer label {color: #fff;text-shadow: 0 0 0;margin-bottom: 20px;font-size: 1.4em}
 #footer p {color: #fff;}
 #footer a {color: #fff;}
 #footer p .date {color: #fff}
@@ -184,6 +184,7 @@ img.icon{padding:0 10px 5px 0;}
 p.service-description{line-height:1.4em;}
 div.error{position:absolute;top:0;color:red;}
 div.errormessage {background: none repeat scroll 0 0 #fff;color:red;font-family: "Century Gothic",Helvetica,arial,sans-serif;font-size: 12px;height: 33px;left: 178px;line-height: 32px;padding: 0 8px;position: absolute;top: 7px;width: 170px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border:1px solid;}
+#mc_embed_signup label{float:left;}
 
 /*******************************************************************************************************************
 *  TWITTER BAR STYLES                                                                                                    
