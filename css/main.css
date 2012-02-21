@@ -53,7 +53,7 @@ h4 {font-size: 1.0em;}
 #intro #macbook {background: url("../img/macbook2.png") no-repeat scroll 0 0 transparent;top: -10px;height: 309px;left: 390px;position: absolute;width: 550px;}
 #intro #services {top: -25px;height: 333px;left: 325px;position: absolute;width: 642px;}
 #intro #products {height: 328px;left: 340px;position: absolute;top: -10px;width: 625px;}
-#intro #contact-us {top: -74px;height: 511px;left: 575px;position: absolute;width: 465px;}
+#intro #contact-us {top: -74px;height: 511px;left: 575px;position: absolute;width: 330px;}
 #intro #design-vault {top: -40px;height: 310px;left: 475px;position: absolute;width: 447px;}
 #intro #macbook img {position: relative;top: 19px;left:88px;width:366px;height:227px;}
 #intro h2 {font-size: 1.2em;text-shadow: 0 0 0;color: #afadae;font-style:oblique;}
