@@ -10,8 +10,14 @@
 
 get_header(); ?>
 
-		<div id="primary">
+		<div id="primary" class="sidebar">
 			<div id="content" role="main">
+				<div class="breadcrumbs">
+				    <?php if(function_exists('bcn_display'))
+				    {
+				        bcn_display();
+				    }?>
+				</div>
 
 				<?php while ( have_posts() ) : the_post(); ?>
 

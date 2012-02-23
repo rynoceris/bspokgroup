@@ -1,3 +1,10 @@
+<?php
+// Include WordPress 
+define('WP_USE_THEMES', false);
+require('./blog/wp-load.php');
+query_posts('showposts=4');
+?>
+
 <!DOCTYPE html>
 <html lang="cs"><head><meta charset="utf-8">
 	<title>bspōk group - your team. your passion. your brand.</title>
@@ -203,34 +210,16 @@
                 <hr><h2 class="separate">Recent blog posts</h2>
                 
                 <div class="marginBottom30 clearFix">
-                    
-                    <div class="col1-4">
-                        <h3>Post title goes here</h3>
-                        <small class="date">by admin on Feb 3, 2011</small>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
-                    </div>
-                    
-                    <div class="col1-4">
-                        <h3>Post title goes here</h3>
-                        <small class="date">by admin on Feb 3, 2011</small>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
-                    </div>
-                    
-                    <div class="col1-4">
-                        <h3>Post title goes here</h3>
-                        <small class="date">by admin on Feb 3, 2011</small>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
-                    </div>
-                    
-                    <div class="col1-4">
-                        <h3>Post title goes here</h3>
-                        <small class="date">by admin on Feb 3, 2011</small>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
-                    </div>
-                    
+                    <?php while (have_posts()): the_post(); ?>
+						<div class="col1-4">
+							<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							<small class="date">by <?php the_author(); ?> on <?php the_date(); ?></small>
+							<?php the_excerpt(); ?>
+						</div>
+					<?php endwhile; ?>                    
                 </div>
                 
-                <p><a href="#" class="more" title="View blog">View blog</a></p>                                                
+                <p><a href="/blog" class="more" title="View blog">View blog</a></p>                                                
                 
             </div> <!-- / .wrap -->
         </div> <!-- / #container -->        

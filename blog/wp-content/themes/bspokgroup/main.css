@@ -24,8 +24,8 @@ a.more {padding-right: 15px;color: #000;background: url('/img/arrow.png') no-rep
 *******************************************************************************************************************/
 h1, h2, h3, h4, #footer label {font-family: "Lato", Arial;line-height: 1.5em;margin-bottom: 15px;font-weight: 700}
 h1 {font-size: 2.8em;color: #fff;margin: 0;} 
-h1 span {color: #e1aa02}
-h2 {font-size: 1.75em;color: #5f5f61;text-shadow: 1px 1px 1px #fff;}
+h1 span {color: #00aeef}
+h2 {font-size: 1.25em;color: #5f5f61;text-shadow: 1px 1px 1px #fff;}
 .col1-3 h2 {font-size: 1.5em;}
 h2.service,h2.contact,h2.about,h2.privacy{line-height:48px;margin-bottom:0;float:left;}
 h3 {font-size: 0.9em;color: #000;text-shadow: 1px 1px 1px #fff;margin-bottom: 8px}
@@ -194,5 +194,24 @@ a.rrt-date{margin-left:3px;font-size:0.7em;color:#71777D;}
 *  BLOG SPECIFIC STYLES                                                                                                    
 *******************************************************************************************************************/
 
-#primary{float:left;position:relative;width:660px;padding: 0 20px 0 0;}
+#primary{float:left;position:relative;width:100%;padding:0;}
+#primary.sidebar{float:left;position:relative;width:640px;padding: 0 20px 0 0;}
 #secondary{float:right;position:relative;width:300px;}
+#secondary aside{float:left;width:100%;}
+h1.entry-title{color:#71777d;font-size:1.75em;padding-bottom: 10px;margin-bottom: 20px;background: url('/img/double-border.png') repeat-x bottom;}
+.entry-content{margin-top:15px;}
+footer.entry-meta{padding-bottom: 10px;margin-bottom: 20px;background: url('/img/double-border.png') repeat-x bottom;}
+form#searchform label{display:none;}
+form#searchform input.submit {width: 108px;height: 31px;background: url('/img/submit-subscribe.png') no-repeat;border: 0;font-size: 1.0em;font-weight: bold;color: #024B67;text-shadow: 1px 1px 1px #159ED1;font-family: Arial;cursor: pointer}
+form#searchform input.submit:hover {color: #000}
+form#searchform input#s.field {border: 1px solid #d2d2d4;border-radius: 4px 4px 4px 4px;color: #71777D;font-style: italic;margin-bottom: 10px;padding: 10px 5px;width: 210px;}
+form#searchform {margin-bottom:25px;}
+h1.page-title{color:#71777d;font-size:1.75em;padding-bottom: 10px;margin-bottom: 20px;background: url('/img/double-border.png') repeat-x bottom;}
+.breadcrumbs{text-transform:lowercase;float:left;margin-bottom:15px;width:660px;}
+nav#nav-single{display:none;}
+#comments{float:left;}
+ol.commentlist{float:left;}
+img.avatar{margin-right:15px;}
+#respond{float:left;width:100%;margin-top:15px;}
+form#commentform label{display:none;}
+p.form-allowed-tags{width:369px;}

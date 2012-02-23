@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-		<div id="primary">
+		<div id="primary" class="sidebar">
 			<div id="content" role="main">
 
 			<?php if ( have_posts() ) : ?>
