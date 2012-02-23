@@ -192,16 +192,16 @@ query_posts('showposts=4');
                 <div class="marginBottom30 clearFix">
                     
                     <div class="col1-4">
-                        <h3>Client work</h3>
+                        <h3>Our favorites</h3>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus. Aenean commodo ligula eget dolor. Aenean massa.</p>
                         <a href="featured-designs.html" class="more" title="View details">View details</a>
                     </div>
                     
                     <div class="col3-4">
                         <p class="gallery clearFix">
-                            <a class="photo" href="./img/classic_arch_template.png"><img src="./img/classic_arch_template-thumb.png" alt=""/></a>
-                            <a class="photo" href="./img/classic_arch_template.png"><img src="./img/classic_arch_template-thumb.png" alt=""/></a>
-                            <a class="photo" href="./img/classic_arch_template.png"><img src="./img/classic_arch_template-thumb.png" alt=""/></a>
+                            <a class="photo" href="./img/half-and-half_zionsville.jpg"><img src="./img/half-and-half_zionsville-thumb.jpg" alt=""/></a>
+                            <a class="photo" href="./img/shake_plainfield.jpg"><img src="./img/shake_plainfield-thumb.jpg" alt=""/></a>
+                            <a class="photo" href="./img/tail_swoop_avon.jpg"><img src="./img/tail_swoop_avon-thumb.jpg" alt=""/></a>
                         </p>
                     </div>
                     
