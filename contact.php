@@ -200,12 +200,12 @@
                         <h3>Follow us</h3>
                         
                         <p class="followUs clearFix">
-                            <a href="http://www.facebook.com/bspokgroup" class="facebook">Facebook</a>
-                            <a href="http://twitter.com/bspokgroup" class="twitter">Twitter</a>
-							<a href="http://www.linkedin.com/company/bsp-k-group" class="linkedin">LinkedIn</a>
-                            <a href="./" class="rss">RSS</a>
-                            <a href="./" class="vimeo">Vimeo</a>
-                        </p>                                                
+                <a href="http://www.facebook.com/bspokgroup" class="facebook">Facebook</a>
+                <a href="http://twitter.com/bspokgroup" class="twitter">Twitter</a>
+				<a href="http://www.linkedin.com/company/bsp-k-group" class="linkedin">LinkedIn</a>
+                <a href="/blog/?feed=rss2" class="rss">RSS</a>
+                <a href="http://vimeo.com/bspokgroup" class="vimeo">Vimeo</a>
+            </p>                                                
                     </div>
                     
                     <div class="col1-4">
