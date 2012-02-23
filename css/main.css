@@ -185,6 +185,9 @@ p.service-description{line-height:1.4em;}
 div.error{position:absolute;top:0;color:red;}
 div.errormessage {background: none repeat scroll 0 0 #fff;color:red;font-family: "Century Gothic",Helvetica,arial,sans-serif;font-size: 12px;height: 33px;left: 178px;line-height: 32px;padding: 0 8px;position: absolute;top: 7px;width: 170px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border:1px solid;}
 #mc_embed_signup label{float:left;}
+ol#bspokgroup-promise{float:left;color:#7D7D7D;font-family:"Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;font-size:13px;line-height:21px;margin-bottom:24px;list-style:decimal inside none;}
+ul#yt-yp-yb-ys{width:450px;}
+span.right-align{float:right;}
 
 /*******************************************************************************************************************
 *  TWITTER BAR STYLES                                                                                                    
