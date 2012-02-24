@@ -73,11 +73,11 @@ query_posts('showposts=4');
 
 		                    <h2>Who we are.</h2>
                     
-		                    <p>bspōk group is a locally owned, Indianapolis area, boutique promotional marketing firm dedicated to superior results through singular customer focus and leveraging in-house production and custom design.</p>
+		                    <p>bspōk group is a faith-focused locally owned Indianapolis area boutique promotional marketing firm dedicated to superior results through singular customer focus and leveraging in-house production and custom design.</p>
                     
 		                    <a href="about.html" class="button" title="More About Us"><span>MORE ABOUT US</span></a>
                     
-		                    <div id="macbook"><img src="./tmp/screen.png" alt="bspōk definition"/></div>
+		                    <div id="macbook"><img src="./img/screen.png" alt="bspōk definition"/></div>
 						</li>
 						<li>
                     		<h1>Gear, Goods, &amp; Swag.</h1>
