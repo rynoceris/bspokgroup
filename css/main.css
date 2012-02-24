@@ -31,7 +31,7 @@ h2 {font-size: 1.75em;color: #5f5f61;text-shadow: 1px 1px 1px #fff;}
 h2.service,h2.contact,h2.about,h2.privacy{line-height:48px;margin-bottom:0;float:left;}
 h3 {font-size: 0.9em;color: #000;text-shadow: 1px 1px 1px #fff;margin-bottom: 8px}
 #copy h3{font-size: 1.25em;color: #5f5f61;text-shadow: 1px 1px 1px #fff;margin-bottom: 8px;}
-h3.promotional,h3.apparel{line-height:48px;width:170px;float:left;}
+h3.promotional,h3.apparel, #copy.products h3{line-height:48px;width:170px;float:left;}
 h4 {font-size: 1.0em;}
 .separate {padding-bottom: 10px;margin-bottom: 20px;background: url('../img/double-border.png') repeat-x bottom}
 
@@ -78,7 +78,7 @@ h4 {font-size: 1.0em;}
 #content .icon7 {background: url('../img/apparel-icon.png') no-repeat}
 #content .services {height:306px;}
 #copy {float:left;width:960px;}
-.shop-now{width:171px;float:right;text-align:right;margin-top:3px;}
+.shop-now{width:171px;float:right;text-align:right;margin-top:3px;display:none;}
 .col2-1 p,.col2-2 p{float:left;width:100%;}
 
 /*******************************************************************************************************************
@@ -188,6 +188,9 @@ div.errormessage {background: none repeat scroll 0 0 #fff;color:red;font-family:
 ol#bspokgroup-promise{float:left;color:#7D7D7D;font-family:"Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;font-size:13px;line-height:21px;margin-bottom:24px;list-style:decimal inside none;}
 ul#yt-yp-yb-ys{width:450px;}
 span.right-align{float:right;}
+ul#dtg-features{list-style:disc inside none;width:100%;}
+ul#anajet-guidelines{list-style:disc inside none;width:100%;}
+ul.services-offered{float:left;width:100%;}
 
 /*******************************************************************************************************************
 *  TWITTER BAR STYLES                                                                                                    

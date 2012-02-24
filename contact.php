@@ -77,6 +77,11 @@
 				<span class="divider separate"></span>
                 
                 <div class="marginBottom30 clearFix">
+					<div id="copy" class="contact">
+						<h3>Where are we located in Indianapolis?</h3>
+						<p><img class="bspok-copy" src="img/bspok-body-copy.png" alt=""/> is located at 2240 Distributors Drive, Indianapolis, IN 46241 - we are conveniently located five miles west of downtown in the Park Fletcher business area within the I-465 business loop and east of the old airport.  <img class="bspok-copy" src="img/bspok-body-copy.png" alt=""/> is also only minutes from both the Fed Ex and USPS hubs offering great access and proximity for daily pick-up of expedited and rush orders.  Please see the map below for our exact location.</p>
+					</div>
+					
 					<div id="contact-form">
 						<form action="#" method="post" accept-charset="utf-8" class="validate">
 							<fieldset>
@@ -89,7 +94,7 @@
 								<textarea name="yourmessage" id="yourmessage" class="message validate" onclick="this.value = ''" onblur="if (!this.value) this.value = 'Your Message'" value="Your Message">Your Message</textarea>
 							</fieldset>
 							<div class="send-to">
-								<p class="to"><span class="bold">To:</span><br />bspōk group<br />2240 Distributors Drive<br />Indianapolis, IN 46241<br /><a href="mailto:info@bspokgroup.com">info@bspokgroup.com</a><br />1-800-433-7289</p>
+								<p class="to"><span class="bold">To:</span><br /><img class="bspok-copy" src="img/bspok-body-copy.png" alt=""/><br />2240 Distributors Drive<br />Indianapolis, IN 46241<br /><a href="mailto:info@bspokgroup.com">info@bspokgroup.com</a><br />1-800-433-7289</p>
 								<input id="contact-submit" type="submit" class="submit" value="Say Hello!"/>
 							</div>
 						</form>
