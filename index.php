@@ -73,7 +73,7 @@ query_posts('showposts=4');
 
 		                    <h2>Who we are.</h2>
                     
-		                    <p>bspōk group is a custom apparel and promotional products company.</p>
+		                    <p>bspōk group is a locally owned, Indianapolis area, boutique promotional marketing firm dedicated to superior results through singular customer focus and leveraging in-house production and custom design.</p>
                     
 		                    <a href="about.html" class="button" title="More About Us"><span>MORE ABOUT US</span></a>
                     
@@ -84,7 +84,7 @@ query_posts('showposts=4');
 
 		                    <h2>What we offer.</h2>
                     
-		                    <p>bspōk group is a custom apparel and promotional products company.</p>
+		                    <p>Visit our products page to learn more about the promotional products and apparel available for your next project!</p>
                     
 		                    <a href="products.html" class="button" title="Our Products"><span>OUR PRODUCTS</span></a>
                     
@@ -95,7 +95,7 @@ query_posts('showposts=4');
 
 		                    <h2>What we do.</h2>
                     
-		                    <p>bspōk group is a custom apparel and promotional products company.</p>
+		                    <p>We offer access to in-house direct to garment printing, screen printing, embroidery, laser engraving and graphic design.</p>
                     
 		                    <a href="#services-list" class="button" title="Our Services"><span>OUR SERVICES</span></a>
                     
@@ -106,7 +106,7 @@ query_posts('showposts=4');
 
 		                    <h2>See our work.</h2>
                     
-		                    <p>bspōk group is a custom apparel and promotional products company.</p>
+		                    <p>Our design archive is an ever-growing collection of artwork created by our in-house design team. Take a peek now!</p>
                     
 		                    <a href="design-archive.html" class="button" title="Design Archive"><span>DESIGN ARCHIVE</span></a>
                     
@@ -117,7 +117,7 @@ query_posts('showposts=4');
 
 		                    <h2>Get in touch.</h2>
                     
-		                    <p>bspōk group is a custom apparel and promotional products company.</p>
+		                    <p>Have an idea for your next project? Need to ask a question? Stop by our contact page and drop us a line!</p>
                     
 		                    <a href="contact.php" class="button" title="Say Hello"><span>SAY HELLO</span></a>
                     
@@ -137,7 +137,7 @@ query_posts('showposts=4');
 					<div class="col1-3 first">
                         <h2>Direct to Garment</h2>
                         <div class="content withIcon icon4">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>Have a highly detailed logo, full color logo, or low quantities to print? Direct To Garment printing may be the way to go!</p>
 							<a href="dtg.html">Read more...</a>
 						</div>
                     </div>                    
@@ -145,7 +145,7 @@ query_posts('showposts=4');
                     <div class="col1-3">
                         <h2>Screen Printing</h2>
                         <div class="content withIcon icon1">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>For higher run quantities or specialized ink techniques, screen printing is the perfect solution for your next project.</p>
 							<a href="screenprint.html">Read more...</a>
 						</div>
                     </div>
@@ -153,7 +153,7 @@ query_posts('showposts=4');
                     <div class="col1-3">
                         <h2>Embroidery</h2>
                         <div class="content withIcon icon2">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>From tackle twill to appliqu&eacute; and everything in between, embroidery creates a stylized look on hats, polos, and more.</p>
 							<a href="embroidery.html">Read more...</a>
 						</div>
                     </div>
@@ -161,7 +161,7 @@ query_posts('showposts=4');
                     <div class="col1-3">
                         <h2>Laser Engraving</h2>
                         <div class="content withIcon icon3">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>Creating unique and memorable promotional products, gifts and more is a snap with our laser engraving service.</p>
 							<a href="laser-engraving.html">Read more...</a>
 						</div>
                     </div>
@@ -169,7 +169,7 @@ query_posts('showposts=4');
 					<div class="col1-3">
                         <h2>Design</h2>
                         <div class="content withIcon icon5">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>Have an idea for your next project, but not sure what to do next? Our design team can make your ideas become reality!</p>
 							<a href="design.html">Read more...</a>
 						</div>
                     </div>
@@ -193,8 +193,8 @@ query_posts('showposts=4');
                     
                     <div class="col1-4">
                         <h3>Our favorites</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                        <a href="featured-designs.html" class="more" title="View details">View details</a>
+                        <p>In this section, we try to display a rotating selection of our current favorite designs. These designs are created by our in-house design team and usually span across several niche markets. Visit our <a href="/design.html">design</a> page today to get started on your own design project with our experienced team of designers!</p>
+                        <a href="featured-designs.html" class="more" title="See more">See more</a>
                     </div>
                     
                     <div class="col3-4">

@@ -68,7 +68,7 @@ h4 {font-size: 1.0em;}
 *******************************************************************************************************************/
 #container {background: url('../img/container-bg.png') 0 0 repeat-x #eeeff1;border-top: 1px solid #e0e0e0;border-bottom: 1px solid #e0e0e0;padding: 20px 0 50px;margin-top:6px;}
 #container-interior {background:#eeeff1;border-top: 1px solid #e0e0e0;border-bottom: 1px solid #e0e0e0;padding: 20px 0 50px;margin-top:6px;}
-#content .withIcon {padding-left: 65px;}
+#content .withIcon {padding-left: 58px;}
 #content .icon1 {background: url('../img/screenprint-icon.png') no-repeat}
 #content .icon2 {background: url('../img/embroidery-icon.png') no-repeat}
 #content .icon3 {background: url('../img/laser-icon.png') no-repeat}
@@ -191,7 +191,7 @@ span.right-align{float:right;}
 ul#dtg-features{list-style:disc inside none;width:100%;}
 ul#anajet-guidelines{list-style:disc inside none;width:100%;}
 ul.services-offered{float:left;width:100%;}
-
+#content .col1-3.first .content.withIcon{padding-left:63px;}
 /*******************************************************************************************************************
 *  TWITTER BAR STYLES                                                                                                    
 *******************************************************************************************************************/
