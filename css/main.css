@@ -31,9 +31,10 @@ h2 {font-size: 1.75em;color: #5f5f61;text-shadow: 1px 1px 1px #fff;}
 h2.service,h2.contact,h2.about,h2.privacy{line-height:48px;margin-bottom:0;float:left;}
 h3 {font-size: 0.9em;color: #000;text-shadow: 1px 1px 1px #fff;margin-bottom: 8px}
 #copy h3{font-size: 1.25em;color: #5f5f61;text-shadow: 1px 1px 1px #fff;margin-bottom: 8px;}
-h3.promotional,h3.apparel, #copy.products h3{line-height:48px;width:170px;float:left;}
+h3.promotional,h3.apparel{line-height:48px;width:170px;float:left;}
 h4 {font-size: 1.0em;}
 .separate {padding-bottom: 10px;margin-bottom: 20px;background: url('../img/double-border.png') repeat-x bottom}
+body#products #copy h3{width:100%;}
 
 /*******************************************************************************************************************
 *  HEADER                                                                                                          
@@ -52,7 +53,7 @@ h4 {font-size: 1.0em;}
 #intro {color: #fff;height: 255px;position: relative;padding: 50px 550px 10px 0;position: relative}
 #intro #macbook {background: url("../img/macbook2.png") no-repeat scroll 0 0 transparent;top: -10px;height: 309px;left: 390px;position: absolute;width: 550px;}
 #intro #services {top: -25px;height: 333px;left: 325px;position: absolute;width: 642px;}
-#intro #products {height: 328px;left: 340px;position: absolute;top: -10px;width: 625px;}
+#intro #products {height: 328px;left: 340px;position: absolute;top: -40px;width: 625px;}
 #intro #contact-us {top: -74px;height: 511px;left: 575px;position: absolute;width: 330px;}
 #intro #design-vault {top: -40px;height: 310px;left: 475px;position: absolute;width: 447px;}
 #intro #macbook img {position: relative;top: 19px;left:88px;width:366px;height:227px;}
@@ -93,6 +94,7 @@ h4 {font-size: 1.0em;}
 #design-grid .row a.design-thumb:first-child{margin-left:0;}
 #design-grid .row a.design-thumb:last-child{margin-right:0;}
 p.callout{float:left;width:960px;clear:both;display:block;}
+p.callout.product-intro{font-size:14px;}
 
 /*******************************************************************************************************************
 *  CONTACT FORM                                                                                                       
@@ -193,6 +195,8 @@ ul#anajet-guidelines{list-style:disc inside none;width:100%;}
 ul.services-offered{float:left;width:100%;}
 #content .col1-3.first .content.withIcon{padding-left:63px;}
 .blue-280{color:#002878;}
+ol.brand-awareness{float:left;width:100%;list-style:decimal inside none;}
+ul.product-research{float:left;width:100%;list-style:disc inside none;}
 /*******************************************************************************************************************
 *  TWITTER BAR STYLES                                                                                                    
 *******************************************************************************************************************/
