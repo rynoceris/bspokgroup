@@ -79,7 +79,7 @@
                 <div class="marginBottom30 clearFix">
 					<div id="copy" class="contact">
 						<h3>Where are we located in Indianapolis?</h3>
-						<p><img class="bspok-copy" src="img/bspok-body-copy.png" alt=""/> is located at 2240 Distributors Drive, Indianapolis, IN 46241 - we are conveniently located five miles west of downtown in the Park Fletcher business area within the I-465 business loop and east of the old airport.  <img class="bspok-copy" src="img/bspok-body-copy.png" alt=""/> is also only minutes from both the Fed Ex and USPS hubs offering great access and proximity for daily pick-up of expedited and rush orders.  Please see the map below for our exact location.</p>
+						<p><img class="bspok-copy" src="img/bspok-body-copy.png" alt=""/> is located at 2240 Distributors Drive, Indianapolis, IN 46241 - we are conveniently located seven miles west of downtown in the Park Fletcher business area within the I-465 business loop and east of the old airport.  <img class="bspok-copy" src="img/bspok-body-copy.png" alt=""/> is also only minutes from both the Fed Ex and USPS hubs offering great access and proximity for daily pick-up of expedited and rush orders.  Please see the map below for our exact location.</p>
 					</div>
 					
 					<div id="contact-form">

@@ -2,6 +2,7 @@
 *  IMPORT OTHER STYLES                                                                                             
 *******************************************************************************************************************/
 @import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic);
 @import url(jquery.fancybox-1.3.4.css);
 
 /*******************************************************************************************************************
@@ -189,6 +190,7 @@ div.errormessage {background: none repeat scroll 0 0 #fff;color:red;font-family:
 ol#bspokgroup-promise{float:left;color:#7D7D7D;font-family:"Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;font-size:13px;line-height:21px;margin-bottom:24px;list-style:decimal inside none;}
 ul#yt-yp-yb-ys{width:450px;float:left;}
 ul#yt-yp-yb-ys li{float:left;display:inline;}
+#copy.about ul#yt-yp-yb-ys li p{width:inherit;margin-bottom:0;margin-right:5px;}
 span.right-align{float:right;display:inline;}
 ul#dtg-features{list-style:disc inside none;width:100%;}
 ul#anajet-guidelines{list-style:disc inside none;width:100%;}
