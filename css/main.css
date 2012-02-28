@@ -192,14 +192,17 @@ ul#yt-yp-yb-ys{width:450px;float:left;}
 ul#yt-yp-yb-ys li{float:left;display:inline;}
 #copy.about ul#yt-yp-yb-ys li p{width:inherit;margin-bottom:0;margin-right:5px;}
 span.right-align{float:right;display:inline;}
-ul#dtg-features{list-style:disc inside none;width:100%;}
-ul#anajet-guidelines{list-style:disc inside none;width:100%;}
+ul#dtg-features{list-style:disc inside none;width:100%;font-family:Arial,Tahoma,Verdana;}
+ul#anajet-guidelines{list-style:disc inside none;width:100%;font-family:Arial,Tahoma,Verdana;}
 ul.services-offered{float:left;width:100%;}
 #content .col1-3.first .content.withIcon{padding-left:63px;}
 .blue-280{color:#002878;}
 ol.brand-awareness{float:left;width:100%;list-style:decimal inside none;}
 ul.product-research{float:left;width:100%;list-style:disc inside none;}
 ul#slides li{background-color:none !important;}
+#content .laser h3, #content .dtg h3{font-size:1.5em;}
+#content .laser h4, #content .dtg h4{font-size:1.25em;color:#00aeef;}
+#content .laser ul{font-family:Arial, Tahoma, Verdana;}
 /*******************************************************************************************************************
 *  TWITTER BAR STYLES                                                                                                    
 *******************************************************************************************************************/
