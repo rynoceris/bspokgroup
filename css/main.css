@@ -148,7 +148,7 @@ a.button span {cursor: pointer;position: relative;left: 20px;padding: 0 30px 0 1
 a.button.shopNow span {cursor: pointer;position: relative;left: 20px;padding: 0 30px 0 50px;display: block;float: left;background: url('../img/button-right.png') no-repeat 100% 0;height: 42px;line-height: 43px;overflow: hidden;font-size: 1.0em;font-weight: bold;color: #024B67;text-shadow: 1px 1px 1px #159ED1;text-decoration: none}
 a.button:hover span {color: #000}
 .gallery .photo {margin-left: 20px}
-.gallery .photo:first-child {margin-left: 0}
+/*.gallery .photo:first-child {margin-left: 0}*/
 a.photo {display: block;float: left;}
 a.photo img, img.photo {display: block;float: left;border: 1px solid #d3d3d3;background: #fff;padding: 3px}
 a.photo:hover img {border-color: #d1d1d1}
@@ -203,6 +203,29 @@ ul#slides li{background-color:none !important;}
 #content .laser h3, #content .dtg h3{font-size:1.5em;}
 #content .laser h4, #content .dtg h4{font-size:1.25em;color:#00aeef;}
 #content .laser ul{font-family:Arial, Tahoma, Verdana;}
+.video{width:100%;float:left; margin-bottom:40px;}
+.video p{float:left;}
+.video iframe{float:right;}
+.video .col1-4{margin-left:20px;width:400px;}
+.gallery a.photo{width:206px;background:#fff;border:1px solid #D3D3D3;}
+.col3-4 .gallery li a.photo img{width:auto;height:auto;background: none repeat scroll 0 0 #FFFFFF;display: block;margin: 0 auto;padding: 3px;float:none;border:none;}
+.gallery ul li{float:left;}
+.gallery ul li a.photo{margin:0 20px 0 0;}
+.gallery.js .carousel-wrap {display: inline-block;margin: 30px 5px 15px;vertical-align: middle;width: 664px;min-height:247px;}
+.gallery input.carousel-previous {text-shadow: 1px 1px 1px #159ED1;background: none repeat scroll 0 0 #0186B9;border: 1px solid #015574;color: #015574;cursor: pointer;height: 22px;left: 187px;padding:0 3px 3px 3px;position: absolute;top: 0;border-radius:4px;}
+.gallery input.carousel-previous:hover, .gallery input.carousel-next:hover{color:#000;}
+.gallery input.carousel-next{text-shadow: 1px 1px 1px #159ED1;background: none repeat scroll 0 0 #0186B9;border: 1px solid #015574;color: #015574;cursor: pointer;height: 22px;position:absolute;top:0;left:427px;padding:0 3px 3px 3px;position: absolute;top: 0;border-radius:4px;}
+div.center-wrap a {color:#d3d3d3;background: none repeat scroll 0 0 #fff;border: 1px solid #D3D3D3;border-radius: 4px 4px 4px 4px;cursor: pointer;margin: 0 2px;padding: 2px 5px;}
+div.center-wrap a.active{color:#000;}
+div.center-wrap a:hover{color:#000;text-decoration:none;}
+.gallery .center-wrap{margin:0 auto;width:163px;position:absolute;top:0;left:255px;}
+.gallery{position:relative;margin-left:32px;outline:none;}
+p.gallery{margin-left:0;}
+p.gallery a.photo {
+    background: none;
+    border: none;
+    width: 210px;
+}
 /*******************************************************************************************************************
 *  TWITTER BAR STYLES                                                                                                    
 *******************************************************************************************************************/
