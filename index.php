@@ -198,11 +198,9 @@ query_posts('showposts=4');
                     </div>
                     
                     <div class="col3-4">
-                        <p class="gallery clearFix">
-                            <a class="photo" href="./img/half-and-half_zionsville.jpg"><img src="./img/half-and-half_zionsville-thumb.jpg" alt=""/></a>
-                            <a class="photo" href="./img/shake_plainfield.jpg"><img src="./img/shake_plainfield-thumb.jpg" alt=""/></a>
-                            <a class="photo" href="./img/tail_swoop_avon.jpg"><img src="./img/tail_swoop_avon-thumb.jpg" alt=""/></a>
-                        </p>
+						<p class='gallery clearFix'>
+                        	<?php require('./featured-designs.php') ?>
+						</p>
                     </div>
                     
                 </div>
